@@ -1,0 +1,6 @@
+Code for input verification
+
+/* Verify the correct number of arguments were passed in */
+   if(argc != 4) {
+      fprintf(stderr, "USAGE:./main.out <INT> <INT> <INT>\n");
+   }
